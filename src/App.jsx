@@ -1,9 +1,10 @@
 import React from 'react';
-
+import Description from './components/Description'
+import { name, genre, genre2, genre3, about} from './dave'
 const App = () =>{
     return(
         <>
-        <h1>Hello World</h1>
+        <Description name={name} genre={genre} genre2 ={genre2} genre3 = {genre3} about = { about }/>
         </>
     )
 }
