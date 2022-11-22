@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Maven+Pro&family=Quicksand&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EEEEEE;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+#description h1{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 100px;
+    /* border: 1px solid black; */
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#description ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#description p {
+    margin: 20px;
+    text-align: center;
+}
+
+#albums{
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: column;
+    background-color: #222831;
+}
+
+#album{
+    border: 5px dashed #FFD369;
+    margin: 10px 130px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #393E46;
+    color: #EEEEEE;
+}
+#album img{
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+}
+
+#album h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}

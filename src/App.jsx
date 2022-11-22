@@ -6,6 +6,8 @@ import img1 from './assets/WAAINTT.jpg'
 import img2 from './assets/psychodrama.jpg'
 import img3 from './assets/GameOver.jpg'
 import img4 from './assets/6paths.jpg'
+import './app.css'
+
 const App = () =>{
     return(
         <>
