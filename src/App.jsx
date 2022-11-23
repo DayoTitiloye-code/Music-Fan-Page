@@ -1,6 +1,7 @@
 import React from 'react';
 import Description from './components/Description'
 import Album from './components/Album'
+import Song from './components/Song'
 import { name, genre, genre2, genre3, about} from './dave'
 import img1 from './assets/WAAINTT.jpg'
 import img2 from './assets/psychodrama.jpg'
@@ -16,6 +17,7 @@ const App = () =>{
                     genre2 ={ genre2 } 
                     genre3 = { genre3 } 
                     about = { about }/>
+        <Song />
         <div id='albums'>
         <Album title={"We're All Alone in This Together"}
                 desc={"We're All Alone in This Together is the second studio album by British rapper Dave, released on 23 July 2021 by Neighbourhood Recordings. "}

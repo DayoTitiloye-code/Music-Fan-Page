@@ -6,7 +6,7 @@ const Album = ({ title, desc, img, rating }) =>{
         <h1>{ title } </h1>
         <em> { desc } </em>
         <img src={ img }/>
-        <p> {rating} </p>
+        <p>Album Rating: {rating} </p>
         </div>
     )
 }
